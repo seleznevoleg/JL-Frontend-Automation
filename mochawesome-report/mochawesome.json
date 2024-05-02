@@ -1,0 +1,100 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-04-25T12:46:58.664Z",
+    "end": "2024-04-25T12:49:35.263Z",
+    "duration": 156599,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "24c6ab01-4a42-4109-a41e-a2e30fafc1be",
+      "title": "",
+      "fullFile": "cypress/e2e/tickets/19073_mfd_in_occupation_title.cy.js",
+      "file": "cypress/e2e/tickets/19073_mfd_in_occupation_title.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "f7d5f884-a29b-4cb4-afc6-f3f1abf2359e",
+          "title": "Verifying that each occupation on each portal has a mfd suffix in title",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Check links on portal MUC",
+              "fullTitle": "Verifying that each occupation on each portal has a mfd suffix in title Check links on portal MUC",
+              "timedOut": null,
+              "duration": 154971,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": "[\n  \"/abteilungsleiter\",\n  \"/access-programmierer\",\n  \"/account-manager\",\n  \"/altenpfleger\",\n  \"/analyst\",\n  \"/anlagenbauer\",\n  \"/anlagenmechaniker\",\n  \"/application-engineer\",\n  \"/architekt\",\n  \"/artdirector\",\n  \"/arzthelfer\",\n  \"/assistent\",\n  \"/au%C3%9Fendienstmitarbeiter\",\n  \"/au%C3%9Fenhandelskauffrau-au%C3%9Fenhandelskaufmann\",\n  \"Test failed\",\n  \"/automatisierungstechniker\",\n  \"/automobilkauffrau-automobilkaufmann\",\n  \"Test failed\",\n  \"/%C3%A4rztin-arzt\",\n  \"Test failed\",\n  \"/baecker\",\n  \"/baeckereiverkaeufer\",\n  \"/bankkauffrau-bankkaufmann\",\n  \"Test failed\",\n  \"/barkeeper\",\n  \"/bauingenieur\",\n  \"/bauleiter\",\n  \"/bautechniker\",\n  \"/beamtin-beamter\",\n  \"Test failed\",\n  \"/berechnungsingenieur\",\n  \"/berufskraftfahrer\",\n  \"/betriebselektriker\",\n  \"/betriebsleiter\",\n  \"/betriebstechniker\",\n  \"/bewegungstherapeut\",\n  \"/bezirksleiter\",\n  \"/bilanzbuchhalter\",\n  \"/biologin-biologe\",\n  \"Test failed\",\n  \"/biologisch-technisch-assistent\",\n  \"/buchhalter\",\n  \"/buerokauffrau-buerokaufmann\",\n  \"Test failed\",\n  \"/buerokraft\",\n  \"/business-development-manager\",\n  \"/cad-konstrukteur\",\n  \"/cad-zeichner\",\n  \"/call-center-agent\",\n  \"/category-manager\",\n  \"/chauffeur\",\n  \"/chef-de-partie\",\n  \"/chef-de-rang\",\n  \"/chemieingenieur\",\n  \"/chemielaborant\",\n  \"/cnc-dreher\",\n  \"/consultant\",\n  \"/content-manager\",\n  \"/controller\",\n  \"/dachdecker\",\n  \"/designer\",\n  \"/developer\",\n  \"/digitaldrucker\",\n  \"/disponent\",\n  \"/drogist\",\n  \"/einkaeufer\",\n  \"/einsatzleiter\",\n  \"/einzelhandelskauffrau-einzelhandelskaufmann\",\n  \"Test failed\",\n  \"/elektroingenieur\",\n  \"/elektrokonstrukteur\",\n  \"/elektromechaniker\",\n  \"/elektroniker\",\n  \"/elektroplaner\",\n  \"/elektrotechniker\",\n  \"/entwicklungsingenieur\",\n  \"/ergotherapeut\",\n  \"/ernaehrungsberater\",\n  \"/erzieher\",\n  \"/eventmanager\",\n  \"/fachberater\",\n  \"/fachkraft-abwassertechnik\",\n  \"/fachkraft-gastgewerbe\",\n  \"/fachkraft-lagerlogistik\",\n  \"/fachkraft-lebensmitteltechnik\",\n  \"/fachkraft-veranstaltungstechnik\",\n  \"/facility-manager\",\n  \"/fahrer\",\n  \"/fahrzeuglackierer\",\n  \"/feinwerkmechaniker\",\n  \"/fertigungsplaner\",\n  \"/finanzbuchhalter\",\n  \"/finanzmakler\",\n  \"/forstwirt\",\n  \"/fremdsprachenkorrespondent\",\n  \"/friseur\",\n  \"/galvaniseur\",\n  \"/gas-wasserinstallateur\",\n  \"/gebaeudereiniger\",\n  \"/gebaeudetechniker\",\n  \"/geschaeftsfuehrer\",\n  \"/gestalter-visuelles-marketing\",\n  \"/grafiker\",\n  \"/handelsassistent\",\n  \"/handelsvertreter\",\n  \"/handwerker\",\n  \"/hausmeister\",\n  \"/haustechniker\",\n  \"/hauswirtschafter\",\n  \"/hebamme-entbindungspfleger\",\n  \"Test failed\",\n  \"/heilerziehungspfleger\",\n  \"/heilpaedagogin-heilpaedagoge\",\n  \"Test failed\",\n  \"/heizungsbauer\",\n  \"/heizungsinstallateur\",\n  \"/holztechniker\",\n  \"/hotelfachfrau-hotelfachmann\",\n  \"Test failed\",\n  \"/hotelkauffrau-hotelkaufmann\",\n  \"Test failed\",\n  \"/immobilienberater\",\n  \"/immobilienkauffrau-immobilienkaufmann\",\n  \"Test failed\",\n  \"/immobilienmakler\",\n  \"/immobilienverwalter\",\n  \"/industriekauffrau-industriekaufmann\",\n  \"Test failed\",\n  \"/industriemechaniker\",\n  \"/informatiker\",\n  \"/ingenieur\",\n  \"/installateur\",\n  \"/it-berater\",\n  \"/it-projektleiter\",\n  \"/it-systemadministrator\",\n  \"/it-systemelektroniker\",\n  \"/it-system-kauffrau-kaufmann\",\n  \"Test failed\",\n  \"/journalist\",\n  \"/jurist\",\n  \"/kaelteanlagenbauer\",\n  \"/kaeltetechniker\",\n  \"/kanalbauer\",\n  \"/karosseriebauer\",\n  \"/kassierer\",\n  \"/kauffrau-kaufmann\",\n  \"Test failed\",\n  \"/kauffrau-kaufmann-dialogmarketing\",\n  \"Test failed\",\n  \"/kauffrau-kaufmann-marketingkommunikation\",\n  \"Test failed\",\n  \"/kaufmaennisch-angestellte-r\",\n  \"/key-account-manager\",\n  \"/kfz-techniker\",\n  \"/kinderbetreuer\",\n  \"/kinderkrankenpfleger\",\n  \"/kinderpfleger\",\n  \"/koechin-koch\",\n  \"Test failed\",\n  \"/kommissionierer\",\n  \"/konditor\",\n  \"/konstrukteur\",\n  \"/kosmetiker\",\n  \"/krankenpfleger\",\n  \"/kuechenhilfe\",\n  \"/kundenberater\",\n  \"/kunststofftechniker\",\n  \"/kurierfahrer\",\n  \"/lackierer\",\n  \"/lagerarbeiter\",\n  \"/landschaftsarchitekt\",\n  \"/landschaftsgaertner\",\n  \"/lebensmitteltechniker\",\n  \"/lehrer\",\n  \"/lehrlingsausbilder\",\n  \"/logistiker\",\n  \"/logopaede\",\n  \"/lohnbuchhalter\",\n  \"/m-a-consultant\",\n  \"/maler\",\n  \"/marketing-manager\",\n  \"/maschinenbauer\",\n  \"/maschinenfuehrer\",\n  \"/maschinentechniker\",\n  \"/maurer\",\n  \"/mechatroniker\",\n  \"/mediengestalter\",\n  \"/medientechniker\",\n  \"/medizinisch-technisch-assistent\",\n  \"/medizinisch-fachangestellte-r\",\n  \"/medizinische-schreibkraft\",\n  \"/medizintechniker\",\n  \"/me%C3%9Ftechniker\",\n  \"/metzger\",\n  \"/modedesigner\",\n  \"/monteur\",\n  \"/naturwissenschaftler\",\n  \"/notarfachangestellte-r\",\n  \"/online-redakteur\",\n  \"/operationstechnische-assistenz\",\n  \"/orthopaedietechniker\",\n  \"/paedagoge\",\n  \"Test failed\",\n  \"/paedagogische-fachkraft\",\n  \"/page\",\n  \"/personaldisponent\",\n  \"/personalkauffrau-personalkaufmann\",\n  \"Test failed\",\n  \"/personalreferent\",\n  \"/personalsachbearbeiter\",\n  \"/pflegefachkraft\",\n  \"/pharmaberater\",\n  \"/physiklaborant\",\n  \"/physiotherapeut\",\n  \"/pr-manager\",\n  \"/produktionsleiter\",\n  \"/produktionstechniker\",\n  \"/produktmanager\",\n  \"/programmierer\",\n  \"/projektingenieur\",\n  \"/projektleiter\",\n  \"/projektmanager\",\n  \"/promoter\",\n  \"/pruefingenieur\",\n  \"/psychiater\",\n  \"/psychologin-psychologe\",\n  \"Test failed\",\n  \"/qualitaetsingenieur\",\n  \"/qualitaetsmanager\",\n  \"/radiologieassistent\",\n  \"/radladerfahrer\",\n  \"/raumpfleger\",\n  \"/rechtsanwaltsfachangestellte-r\",\n  \"/rechtsreferendar\",\n  \"/recruiter\",\n  \"/reinigungskraft\",\n  \"/reiseleiter\",\n  \"/reiseveranstalter\",\n  \"/restaurantfachfrau-restaurantfachmann\",\n  \"Test failed\",\n  \"/restaurantleiter\",\n  \"/sachbearbeiter\",\n  \"/sales-manager\",\n  \"/sanitaeter\",\n  \"/schichtleiter\",\n  \"/schlosser\",\n  \"/schneider\",\n  \"/schornsteinfeger\",\n  \"/schulleiter\",\n  \"/sekretaer\",\n  \"/seniorenbetreuer\",\n  \"/serviceberater\",\n  \"/servicekraft\",\n  \"/servicetechniker\",\n  \"/sicherheitsmitarbeiter\",\n  \"/software-tester\",\n  \"/softwareentwickler\",\n  \"/sous-chef\",\n  \"/sozialpaedagogin-sozialpaedagoge\",\n  \"Test failed\",\n  \"/sozialpaedagogische-assistenz\",\n  \"/sozialversicherungsfachangestellte-r\",\n  \"/speditionskauffrau-speditionskaufmann\",\n  \"Test failed\",\n  \"/sps-programmierer\",\n  \"/stahlbetonbauer\",\n  \"/staplerfahrer\",\n  \"/steuerassistent\",\n  \"/steuerfachangestellte-r\",\n  \"/steuerfachwirt\",\n  \"/stylist\",\n  \"/systemtechniker\",\n  \"/teamleiter\",\n  \"/techniker\",\n  \"/technisch-zeichner\",\n  \"Test failed\",\n  \"/technischer-redakteur\",\n  \"/testingenieur\",\n  \"/texter\",\n  \"/therapeut\",\n  \"/tischler\",\n  \"/veranstaltungskauffrau-veranstaltungskaufmann\",\n  \"Test failed\",\n  \"/veranstaltungstechniker\",\n  \"/verfahrensmechaniker\",\n  \"/verkaeufer\",\n  \"/verkaufsberater\",\n  \"/vermoegensverwalter\",\n  \"/versicherungskauffrau-versicherungskaufmann\",\n  \"Test failed\",\n  \"/vertriebsleiter\",\n  \"/vertriebsmitarbeiter\",\n  \"/verwaltungsfachangestellte-r\",\n  \"/visual-merchandiser\",\n  \"/wasserinstallateur\",\n  \"/webdesigner\",\n  \"/webentwickler\",\n  \"/werbetechniker\",\n  \"/werkzeugmechaniker\",\n  \"/zahnmedizinisch-fachangestellte-r\",\n  \"/zerspanungsmechaniker\",\n  \"/zimmermaedchen-roomboy\",\n  \"Test failed\",\n  \"/zusteller\",\n  \"/zweiradmechaniker\"\n]",
+              "code": "cy.visit(portal + '/berufe');\ncy.get('.list-group-item > a').each(($link, index) => {\n  const href = $link.attr('href'); // Get the href attribute\n  cy.visit(portal + href);\n  cy.addContext(href);\n  cy.checkTextContains('.col-md-8.order-last > :nth-child(1) > .col-12', '(m/w/d)');\n  cy.go(-1); // Navigate back to the original page\n});",
+              "err": {},
+              "uuid": "885cec5b-4c06-4bb5-ba10-1c6a1d79d30a",
+              "parentUUID": "f7d5f884-a29b-4cb4-afc6-f3f1abf2359e",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "885cec5b-4c06-4bb5-ba10-1c6a1d79d30a"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 154971,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": null,
+      "version": "6.2.0"
+    }
+  }
+}
