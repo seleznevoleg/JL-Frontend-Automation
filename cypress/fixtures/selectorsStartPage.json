@@ -20,5 +20,7 @@
     "popularSearchQueriesLinks": ".PromotedLinks > .container-xxl > .section-body > .tag-group > a",
     "topJobItems": ".section > .container-xxl > .section-body > .row > .col-12 > .card > .JobItemWrapper",
     "topJobItemsLink": ".section > .container-xxl > .section-body > .row > .col-12 > .card > .JobItemWrapper> a",
-    "favButton": ".FavoriteButton"
+    "favButton": ".FavoriteButton",
+    "favJobListDropdown": ".FavoritedJobs__text",
+    "favJobAdTrashIcon": ".FavoritesList > .dropdown-item > .bi-trash-fill"
 }

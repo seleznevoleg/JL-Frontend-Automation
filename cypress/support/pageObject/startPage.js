@@ -50,7 +50,11 @@ export class StartPage {
 
     //clear all fav job ads
     clearAllFavoriteJobAds(){
-      cy.get(body).find('')
+      const clearFavJobFromTheList = () => {
+        cy.get(selectorsData.favJobListDropdown).click()
+        cy.get(selectorsData.favJobAdTrashIcon).each.click()
+      }
+      cy.checkIfElementExists('navbarDropdownMenuLink', clearFavJobFromTheList)
     }
 
     //click of on fav icon and check if it is changed
