@@ -52,15 +52,35 @@ export class StartPage {
     clearAllFavoriteJobAds(){
       const clearFavJobFromTheList = () => {
         cy.get(selectorsData.favJobListDropdown).click()
-        cy.get(selectorsData.favJobAdTrashIcon).each.click()
+        cy.get(selectorsData.favJobAdTrashIcon).each(($icon) => {
+          cy.wrap($icon).click()
+        })
       }
-      cy.checkIfElementExists('navbarDropdownMenuLink', clearFavJobFromTheList)
+      cy.checkIfElementExists(selectorsData.favJobListDropdown, clearFavJobFromTheList)
     }
 
     //click of on fav icon and check if it is changed
     clickFavAndCheck(){
       //If needed, fav button could be the function parameter
-      cy.get(selectorsData.favButton).click()
+      
+      let favCount = 0
+
+      //Defining function: click on job ad, assert favicon
+      const favClickandCheck = (element) => {
+        cy.wrap(element).click()
+        cy.wrap(element).find('.bi-heart-fill').should('exist')
+        favCount++
+      }
+      
+      cy.checkIfElementExists(selectorsData.favButton, favClickandCheck)
+      
+      cy.get('.FavoritedJobs__text').invoke('text').then((text) => {
+        // Extract the numeric value using regular expression
+        const numericValue = parseInt(text.match(/\d+/)[0]);
+      
+        // Assert the numeric value with the existing variable favCount
+        cy.wrap(numericValue).should('eq', favCount);
+      });
       
     }
     

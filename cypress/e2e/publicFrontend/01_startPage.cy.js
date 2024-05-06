@@ -117,6 +117,8 @@ describe('Start page validation', () => {
 
   it.only('Testing favourite function for top jobs', () => {
     //Click/unclick fav on every TopJob, assert fav icon and fav number
+    onStartPage.clearAllFavoriteJobAds()
+    onStartPage.clickFavAndCheck ()
     //Assert links and logos in fav dropdown. 
     //Follow publication link and return to start page. Assert that fav icon still active
     //Remove items from fav list, assert removal

@@ -101,25 +101,53 @@ Cypress.Commands.add('acceptAllCookies', () => {
   cy.contains('Alle akzeptieren').click()
 });
 
-Cypress.Commands.add('checkIfElementExists', (selector, callback = null) => {
-  // Check if the element exists
-  cy.get(selector).then(($elements) => {
-    if ($elements.length > 0) {
-      // Iterate over each element found by the selector
-      $elements.each((index, element) => {
-        // Check if callback is a function before executing it
+//this is an experemental implementation to cover case when there's no element on the page
+Cypress.Commands.add('checkIfElementExists', (selector, callback = null, existMessage = '', notExistMessage = '') => {
+  // Use JavaScript DOM manipulation to check if the element exists
+  cy.document().then(doc => {
+    const elements = doc.querySelectorAll(selector);
+    if (elements.length > 0) {
+      // Elements exist
+      elements.forEach((element, index) => {
         if (typeof callback === 'function') {
           // Execute the callback function for each element
-          callback(element); 
+          callback(element, index); 
         } else {
-          cy.log(`Element exists`);
+          const logMessage = existMessage ? existMessage : `Element '${selector}' exists`;
+          cy.log(logMessage);
         }
       });
     } else {
-      cy.log(`Element does not exist`);
+      // Elements do not exist
+      const logMessage = notExistMessage ? notExistMessage : `Element '${selector}' does not exist`;
+      cy.log(logMessage);
     }
   });
 });
+
+
+
+
+
+// Cypress.Commands.add('checkIfElementExists', (selector, callback = null) => {
+//   // Check if the element exists
+//   cy.get(selector).then(($elements) => {
+//     if ($elements.length > 0) {
+//       // Iterate over each element found by the selector
+//       $elements.each((index, element) => {
+//         // Check if callback is a function before executing it
+//         if (typeof callback === 'function') {
+//           // Execute the callback function for each element
+//           callback(element); 
+//         } else {
+//           cy.log(`Element exists`);
+//         }
+//       });
+//     } else {
+//       cy.log(`Element does not exist`);
+//     }
+//   });
+// });
 
 Cypress.Commands.add('softAssert', (condition, message) => {
   if (!condition) {
