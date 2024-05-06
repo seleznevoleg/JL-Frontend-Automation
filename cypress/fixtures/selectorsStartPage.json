@@ -20,7 +20,10 @@
     "popularSearchQueriesLinks": ".PromotedLinks > .container-xxl > .section-body > .tag-group > a",
     "topJobItems": ".section > .container-xxl > .section-body > .row > .col-12 > .card > .JobItemWrapper",
     "topJobItemsLink": ".section > .container-xxl > .section-body > .row > .col-12 > .card > .JobItemWrapper> a",
-    "favButton": ".FavoriteButton",
+    "favButtonStart": ".FavoriteButton",
     "favJobListDropdown": ".FavoritedJobs__text",
-    "favJobAdTrashIcon": ".FavoritesList > .dropdown-item > .bi-trash-fill"
+    "favJobAdTrashIcon": ".FavoritesList > .dropdown-item > .bi-trash-fill",
+    "favJobAdLogo": ".FavoritesList > .dropdown-item > .media > img",
+    "favJobAditem": ".FavoritesList",
+    "favButtonJobAd": ".card > .d-flex > .d-flex > .FavoriteButton"
 }

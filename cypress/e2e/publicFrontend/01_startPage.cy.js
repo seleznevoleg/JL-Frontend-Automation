@@ -115,14 +115,39 @@ describe('Start page validation', () => {
     cy.checkIfElementExists(selectorsData.topJobItems, topJobItemChecks)
   })
 
-  it.only('Testing favourite function for top jobs', () => {
+  it('Testing favourite function for top jobs', () => {
     //Click/unclick fav on every TopJob, assert fav icon and fav number
     onStartPage.clearAllFavoriteJobAds()
     onStartPage.clickFavAndCheck ()
-    //Assert links and logos in fav dropdown. 
-    //Follow publication link and return to start page. Assert that fav icon still active
-    //Remove items from fav list, assert removal
-    //Remove items by deselecting on publication detail page, assert removal
+    onStartPage.clearAllFavoriteJobAds()
+  })
+
+  //Waiting until DR-19224 will be fixed
+  // it.only('Favorite list: asserting job ad links', () => {
+  //   //Preparing test data
+  //   onStartPage.clearAllFavoriteJobAds()
+  //   onStartPage.clickFavAndCheck ()
+  //   //Asserting publication links
+  //   onStartPage.favJobadsLinkCheck()  
+  //   Cleaning fav list
+  //   onStartPage.clearAllFavoriteJobAds()
+
+  // })
+
+  it('Favorite list: asserting logos', () => {
+    //Preparing test data
+    onStartPage.clearAllFavoriteJobAds()
+    onStartPage.clickFavAndCheck ()
+    
+    //Asserting publication logos
+    onStartPage.favJobadsLogoCheck ()
+
+    //Cleaning fav list
+    onStartPage.clearAllFavoriteJobAds()
+  })
+
+  it('Favorite list: deselecting on job ad detail page', () => {
+    onStartPage.removeFavJobFromJobAdDesc ()
   })
 
 })
