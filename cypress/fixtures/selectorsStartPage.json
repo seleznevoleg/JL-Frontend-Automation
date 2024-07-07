@@ -25,5 +25,8 @@
     "favJobAdTrashIcon": ".FavoritesList > .dropdown-item > .bi-trash-fill",
     "favJobAdLogo": ".FavoritesList > .dropdown-item > .media > img",
     "favJobAditem": ".FavoritesList",
-    "favButtonJobAd": ".card > .d-flex > .d-flex > .FavoriteButton"
+    "favButtonJobAd": ".card > .d-flex > .d-flex > .FavoriteButton",
+    "emailInput": "#inputEmail",
+    "passwordInput": "#inputPassword",
+    "loginButton": "[type=\"submit\"]"
 }

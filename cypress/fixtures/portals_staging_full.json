@@ -4,10 +4,10 @@
       "name": "AUG",
       "type": "JL",
       "url": "https://route:wipeout@test.augsburgerjobs.de",
-      "adminUsername": "admin01",
-      "adminPassword": "adminpassword01",
-      "userUsername": "user01",
-      "userPassword": "userpassword01"
+      "city": "Augsburg",
+      "street": "Rathausplatz",
+      "houseNumber": "1",
+      "zipCode": "86150"
     }  ,
     {
       "name": "REG",
@@ -16,7 +16,10 @@
       "adminUsername": "admin02",
       "adminPassword": "adminpassword02",
       "userUsername": "user02",
-      "userPassword": "userpassword02"
+      "city": "",
+      "street": "",
+      "houseNumber": "",
+      "zipCode": ""
     },
     {
       "name": "RO",
@@ -25,7 +28,10 @@
       "adminUsername": "admin02",
       "adminPassword": "adminpassword02",
       "userUsername": "user02",
-      "userPassword": "userpassword02"
+      "city": "",
+      "street": "",
+      "houseNumber": "",
+      "zipCode": ""
     },
     {
       "name": "CHI",
@@ -34,7 +40,9 @@
       "adminUsername": "admin02",
       "adminPassword": "adminpassword02",
       "userUsername": "user02",
-      "userPassword": "userpassword02"
+      "street": "",
+      "houseNumber": "",
+      "zipCode": ""
     },
     {
       "name": "INI",
@@ -43,7 +51,10 @@
       "adminUsername": "admin02",
       "adminPassword": "adminpassword02",
       "userUsername": "user02",
-      "userPassword": "userpassword02"
+      "city": "",
+      "street": "",
+      "houseNumber": "",
+      "zipCode": ""
     },
     {
       "name": "BGL",
@@ -52,7 +63,10 @@
       "adminUsername": "admin02",
       "adminPassword": "adminpassword02",
       "userUsername": "user02",
-      "userPassword": "userpassword02"
+      "city": "",
+      "street": "",
+      "houseNumber": "",
+      "zipCode": ""
     },
     {
       "name": "RAJ",
@@ -61,7 +75,11 @@
       "adminUsername": "admin02",
       "adminPassword": "adminpassword02",
       "userUsername": "user02",
-      "userPassword": "userpassword02"
+      "userPassword": "userpassword02",
+      "city": "",
+      "street": "",
+      "houseNumber": "",
+      "zipCode": ""
     },
     {
       "name": "ING",
@@ -70,7 +88,11 @@
       "adminUsername": "admin02",
       "adminPassword": "adminpassword02",
       "userUsername": "user02",
-      "userPassword": "userpassword02"
+      "userPassword": "userpassword02",
+      "city": "",
+      "street": "",
+      "houseNumber": "",
+      "zipCode": ""
     },
     {
       "name": "JS",
@@ -79,7 +101,11 @@
       "adminUsername": "admin02",
       "adminPassword": "adminpassword02",
       "userUsername": "user02",
-      "userPassword": "userpassword02"
+      "userPassword": "userpassword02",
+      "city": "",
+      "street": "",
+      "houseNumber": "",
+      "zipCode": ""
     },
     {
       "name": "RMJ",
@@ -88,7 +114,11 @@
       "adminUsername": "admin02",
       "adminPassword": "adminpassword02",
       "userUsername": "user02",
-      "userPassword": "userpassword02"
+      "userPassword": "userpassword02",
+      "city": "",
+      "street": "",
+      "houseNumber": "",
+      "zipCode": ""
     },
     {
       "name": "NIE",
@@ -97,7 +127,11 @@
       "adminUsername": "admin02",
       "adminPassword": "adminpassword02",
       "userUsername": "user02",
-      "userPassword": "userpassword02"
+      "userPassword": "userpassword02",
+      "city": "",
+      "street": "",
+      "houseNumber": "",
+      "zipCode": ""
     },
     {
       "name": "MUC",
@@ -106,7 +140,11 @@
       "adminUsername": "admin02",
       "adminPassword": "adminpassword02",
       "userUsername": "user02",
-      "userPassword": "userpassword02"
+      "userPassword": "userpassword02",
+      "city": "",
+      "street": "",
+      "houseNumber": "",
+      "zipCode": ""
     },
     {
       "name": "JBB",
@@ -115,7 +153,11 @@
       "adminUsername": "admin02",
       "adminPassword": "adminpassword02",
       "userUsername": "user02",
-      "userPassword": "userpassword02"
+      "userPassword": "userpassword02",
+      "city": "",
+      "street": "",
+      "houseNumber": "",
+      "zipCode": ""
     },
     {
       "name": "RNJ",
@@ -124,7 +166,11 @@
       "adminUsername": "admin02",
       "adminPassword": "adminpassword02",
       "userUsername": "user02",
-      "userPassword": "userpassword02"
+      "userPassword": "userpassword02",
+      "city": "",
+      "street": "",
+      "houseNumber": "",
+      "zipCode": ""
     },
     {
       "name": "JIT",
@@ -133,7 +179,11 @@
       "adminUsername": "admin02",
       "adminPassword": "adminpassword02",
       "userUsername": "user02",
-      "userPassword": "userpassword02"
+      "userPassword": "userpassword02",
+      "city": "",
+      "street": "",
+      "houseNumber": "",
+      "zipCode": ""
     },
     {
       "name": "HH",
@@ -142,7 +192,11 @@
       "adminUsername": "admin02",
       "adminPassword": "adminpassword02",
       "userUsername": "user02",
-      "userPassword": "userpassword02"
+      "userPassword": "userpassword02",
+      "city": "",
+      "street": "",
+      "houseNumber": "",
+      "zipCode": ""
     },
     {
       "name": "OLJ",
@@ -151,7 +205,11 @@
       "adminUsername": "admin02",
       "adminPassword": "adminpassword02",
       "userUsername": "user02",
-      "userPassword": "userpassword02"
+      "userPassword": "userpassword02",
+      "city": "",
+      "street": "",
+      "houseNumber": "",
+      "zipCode": ""
     },
     {
       "name": "HAN",
@@ -160,7 +218,11 @@
       "adminUsername": "admin02",
       "adminPassword": "adminpassword02",
       "userUsername": "user02",
-      "userPassword": "userpassword02"
+      "userPassword": "userpassword02",
+      "city": "",
+      "street": "",
+      "houseNumber": "",
+      "zipCode": ""
     },
     {
       "name": "J38",
@@ -169,7 +231,11 @@
       "adminUsername": "admin02",
       "adminPassword": "adminpassword02",
       "userUsername": "user02",
-      "userPassword": "userpassword02"
+      "userPassword": "userpassword02",
+      "city": "",
+      "street": "",
+      "houseNumber": "",
+      "zipCode": ""
     },
     {
       "name": "BER",
@@ -178,7 +244,11 @@
       "adminUsername": "admin02",
       "adminPassword": "adminpassword02",
       "userUsername": "user02",
-      "userPassword": "userpassword02"
+      "userPassword": "userpassword02",
+      "city": "",
+      "street": "",
+      "houseNumber": "",
+      "zipCode": ""
     },
     {
       "name": "JaB",
@@ -187,7 +257,11 @@
       "adminUsername": "admin02",
       "adminPassword": "adminpassword02",
       "userUsername": "user02",
-      "userPassword": "userpassword02"
+      "userPassword": "userpassword02",
+      "city": "",
+      "street": "",
+      "houseNumber": "",
+      "zipCode": ""
     },
     {
       "name": "RNM",
@@ -196,7 +270,11 @@
       "adminUsername": "admin02",
       "adminPassword": "adminpassword02",
       "userUsername": "user02",
-      "userPassword": "userpassword02"
+      "userPassword": "userpassword02",
+      "city": "",
+      "street": "",
+      "houseNumber": "",
+      "zipCode": ""
     },
     {
       "name": "JiL",
@@ -205,7 +283,11 @@
       "adminUsername": "admin02",
       "adminPassword": "adminpassword02",
       "userUsername": "user02",
-      "userPassword": "userpassword02"
+      "userPassword": "userpassword02",
+      "city": "",
+      "street": "",
+      "houseNumber": "",
+      "zipCode": ""
     },
     {
       "name": "SWJ",
@@ -214,7 +296,11 @@
       "adminUsername": "admin02",
       "adminPassword": "adminpassword02",
       "userUsername": "user02",
-      "userPassword": "userpassword02"
+      "userPassword": "userpassword02",
+      "city": "",
+      "street": "",
+      "houseNumber": "",
+      "zipCode": ""
     },
     {
       "name": "NRT",
@@ -223,7 +309,11 @@
       "adminUsername": "admin02",
       "adminPassword": "adminpassword02",
       "userUsername": "user02",
-      "userPassword": "userpassword02"
+      "userPassword": "userpassword02",
+      "city": "",
+      "street": "",
+      "houseNumber": "",
+      "zipCode": ""
     },
     {
       "name": "BAD",
@@ -232,7 +322,11 @@
       "adminUsername": "admin02",
       "adminPassword": "adminpassword02",
       "userUsername": "user02",
-      "userPassword": "userpassword02"
+      "userPassword": "userpassword02",
+      "city": "",
+      "street": "",
+      "houseNumber": "",
+      "zipCode": ""
     },
     {
       "name": "AGJ",
@@ -241,7 +335,11 @@
       "adminUsername": "admin02",
       "adminPassword": "adminpassword02",
       "userUsername": "user02",
-      "userPassword": "userpassword02"
+      "userPassword": "userpassword02",
+      "city": "",
+      "street": "",
+      "houseNumber": "",
+      "zipCode": ""
     },
     {
       "name": "MOP",
@@ -250,7 +348,11 @@
       "adminUsername": "admin02",
       "adminPassword": "adminpassword02",
       "userUsername": "user02",
-      "userPassword": "userpassword02"
+      "userPassword": "userpassword02",
+      "city": "",
+      "street": "",
+      "houseNumber": "",
+      "zipCode": ""
     },
     {
       "name": "WAZ",
@@ -259,7 +361,11 @@
       "adminUsername": "admin02",
       "adminPassword": "adminpassword02",
       "userUsername": "user02",
-      "userPassword": "userpassword02"
+      "userPassword": "userpassword02",
+      "city": "",
+      "street": "",
+      "houseNumber": "",
+      "zipCode": ""
     },
     {
       "name": "JIU",
@@ -268,7 +374,11 @@
       "adminUsername": "admin02",
       "adminPassword": "adminpassword02",
       "userUsername": "user02",
-      "userPassword": "userpassword02"
+      "userPassword": "userpassword02",
+      "city": "",
+      "street": "",
+      "houseNumber": "",
+      "zipCode": ""
     },
     {
       "name": "JST",
@@ -277,7 +387,11 @@
       "adminUsername": "admin02",
       "adminPassword": "adminpassword02",
       "userUsername": "user02",
-      "userPassword": "userpassword02"
+      "userPassword": "userpassword02",
+      "city": "",
+      "street": "",
+      "houseNumber": "",
+      "zipCode": ""
     },
     {
       "name": "HJB",
@@ -286,7 +400,11 @@
       "adminUsername": "admin02",
       "adminPassword": "adminpassword02",
       "userUsername": "user02",
-      "userPassword": "userpassword02"
+      "userPassword": "userpassword02",
+      "city": "",
+      "street": "",
+      "houseNumber": "",
+      "zipCode": ""
     },
     {
       "name": "JIF",
@@ -295,7 +413,11 @@
       "adminUsername": "admin02",
       "adminPassword": "adminpassword02",
       "userUsername": "user02",
-      "userPassword": "userpassword02"
+      "userPassword": "userpassword02",
+      "city": "",
+      "street": "",
+      "houseNumber": "",
+      "zipCode": ""
     },
     {
       "name": "RHJ",
@@ -304,7 +426,11 @@
       "adminUsername": "admin02",
       "adminPassword": "adminpassword02",
       "userUsername": "user02",
-      "userPassword": "userpassword02"
+      "userPassword": "userpassword02",
+      "city": "",
+      "street": "",
+      "houseNumber": "",
+      "zipCode": ""
     },
     {
       "name": "JSL",
@@ -313,7 +439,11 @@
       "adminUsername": "admin02",
       "adminPassword": "adminpassword02",
       "userUsername": "user02",
-      "userPassword": "userpassword02"
+      "userPassword": "userpassword02",
+      "city": "",
+      "street": "",
+      "houseNumber": "",
+      "zipCode": ""
     },
     {
       "name": "GIJ",
@@ -322,7 +452,11 @@
       "adminUsername": "admin02",
       "adminPassword": "adminpassword02",
       "userUsername": "user02",
-      "userPassword": "userpassword02"
+      "userPassword": "userpassword02",
+      "city": "",
+      "street": "",
+      "houseNumber": "",
+      "zipCode": ""
     },
     {
       "name": "JIK",
@@ -331,7 +465,11 @@
       "adminUsername": "admin02",
       "adminPassword": "adminpassword02",
       "userUsername": "user02",
-      "userPassword": "userpassword02"
+      "userPassword": "userpassword02",
+      "city": "",
+      "street": "",
+      "houseNumber": "",
+      "zipCode": ""
     },
     {
       "name": "GÖJ",
@@ -340,7 +478,11 @@
       "adminUsername": "admin02",
       "adminPassword": "adminpassword02",
       "userUsername": "user02",
-      "userPassword": "userpassword02"
+      "userPassword": "userpassword02",
+      "city": "",
+      "street": "",
+      "houseNumber": "",
+      "zipCode": ""
     },
     {
       "name": "JAW",
@@ -349,7 +491,11 @@
       "adminUsername": "admin02",
       "adminPassword": "adminpassword02",
       "userUsername": "user02",
-      "userPassword": "userpassword02"
+      "userPassword": "userpassword02",
+      "city": "",
+      "street": "",
+      "houseNumber": "",
+      "zipCode": ""
     },
     {
       "name": "OSJ",
@@ -358,7 +504,11 @@
       "adminUsername": "admin02",
       "adminPassword": "adminpassword02",
       "userUsername": "user02",
-      "userPassword": "userpassword02"
+      "userPassword": "userpassword02",
+      "city": "",
+      "street": "",
+      "houseNumber": "",
+      "zipCode": ""
     },
     {
       "name": "ODJ",
@@ -367,7 +517,11 @@
       "adminUsername": "admin02",
       "adminPassword": "adminpassword02",
       "userUsername": "user02",
-      "userPassword": "userpassword02"
+      "userPassword": "userpassword02",
+      "city": "",
+      "street": "",
+      "houseNumber": "",
+      "zipCode": ""
     },
     {
       "name": "JSA",
@@ -376,7 +530,11 @@
       "adminUsername": "admin02",
       "adminPassword": "adminpassword02",
       "userUsername": "user02",
-      "userPassword": "userpassword02"
+      "userPassword": "userpassword02",
+      "city": "",
+      "street": "",
+      "houseNumber": "",
+      "zipCode": ""
     },
     {
       "name": "SAJ",
@@ -385,7 +543,11 @@
       "adminUsername": "admin02",
       "adminPassword": "adminpassword02",
       "userUsername": "user02",
-      "userPassword": "userpassword02"
+      "userPassword": "userpassword02",
+      "city": "",
+      "street": "",
+      "houseNumber": "",
+      "zipCode": ""
     },
     {
       "name": "JBD",
@@ -394,7 +556,11 @@
       "adminUsername": "admin02",
       "adminPassword": "adminpassword02",
       "userUsername": "user02",
-      "userPassword": "userpassword02"
+      "userPassword": "userpassword02",
+      "city": "",
+      "street": "",
+      "houseNumber": "",
+      "zipCode": ""
     }
   ]
 }

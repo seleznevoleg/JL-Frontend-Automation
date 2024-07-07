@@ -1,4 +1,5 @@
 const { defineConfig } = require("cypress");
+require('dotenv').config()
 
 module.exports = defineConfig({
   viewportHeight: 1080,
@@ -10,6 +11,6 @@ module.exports = defineConfig({
     },
   },
   env: {
-    scenario: 'all',
+    ...process.env
   },
 });
